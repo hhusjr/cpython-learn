@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpython_learn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="python.exe">
+				<Option output="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/python.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/."/>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/Include"/>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/Include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 python.exe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="python.exe/fast">
+				<Option output="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/python.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/."/>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/Include"/>
+					<Add directory="/Users/zeroisone/CLionProjects/cpython-learn/Include/internal"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 python.exe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_abc.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_asynciomodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_bisectmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_bz2module.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_codecsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_collectionsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_contextvarsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_cryptmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_csv.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_curses_panel.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_cursesmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_datetimemodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_dbmmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_elementtree.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_functoolsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_gdbmmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_hashopenssl.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_heapqmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_json.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_localemodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_lsprof.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_lzmamodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_math.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_math.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_opcode.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_operator.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_pickle.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_posixsubprocess.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_queuemodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_randommodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_scproxy.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_sre.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_ssl.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_stat.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_statisticsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_struct.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_testbuffer.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_testcapimodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_testimportmultiple.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_testinternalcapi.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_testmultiphase.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_threadmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_tkinter.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_tracemalloc.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_uuidmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_weakref.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_winapi.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/_xxsubinterpretersmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/arraymodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/atexitmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/audioop.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/binascii.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/cmathmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/config.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/errnomodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/faulthandler.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/fcntlmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/gcmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/getaddrinfo.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/getbuildinfo.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/getnameinfo.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/getpath.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/grpmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/hashtable.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/hashtable.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/itertoolsmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/main.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/mathmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/md5module.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/mmapmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/nismodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/ossaudiodev.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/overlapped.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/parsermodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/posixmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/posixmodule.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/pwdmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/pyexpat.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/readline.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/resource.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/rotatingtree.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/rotatingtree.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/selectmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/sha1module.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/sha256module.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/sha512module.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/signalmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/socketmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/socketmodule.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/spwdmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/symtablemodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/syslogmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/termios.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/timemodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/tkappinit.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/unicodedata.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/xxlimited.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/xxmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/xxsubtype.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Modules/zlibmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/abstract.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/accu.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/boolobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/bytearrayobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/bytes_methods.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/bytesobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/call.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/capsule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/cellobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/classobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/codeobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/complexobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/descrobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/dictobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/enumobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/exceptions.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/fileobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/floatobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/frameobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/funcobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/genobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/interpreteridobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/iterobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/listobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/longobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/memoryobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/methodobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/moduleobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/namespaceobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/object.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/obmalloc.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/odictobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/picklebufobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/rangeobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/setobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/sliceobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/structseq.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/tupleobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/typeobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/unicodectype.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/unicodeobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Objects/weakrefobject.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/acceler.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/grammar1.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/listnode.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/myreadline.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/node.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/parser.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/parser.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/parsetok.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/token.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/tokenizer.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Parser/tokenizer.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Programs/_freeze_importlib.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Programs/_testembed.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Programs/python.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/Python-ast.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/_warnings.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/asdl.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/ast.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/ast_opt.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/ast_unparse.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/bltinmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/bootstrap_hash.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/ceval.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/codecs.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/compile.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/context.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dtoa.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dup2.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynamic_annotations.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_aix.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_dl.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_hpux.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_shlib.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_stub.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/dynload_win.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/errors.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/fileutils.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/formatter_unicode.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/frozen.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/frozenmain.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/future.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getargs.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getcompiler.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getcopyright.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getopt.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getplatform.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/getversion.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/graminit.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/hamt.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/import.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/importdl.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/importdl.h">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/initconfig.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/marshal.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/modsupport.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/mysnprintf.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/mystrtoul.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pathconfig.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/peephole.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/preconfig.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pyarena.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pyctype.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pyfpe.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pyhash.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pylifecycle.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pymath.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pystate.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pystrcmp.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pystrhex.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pystrtod.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pythonrun.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/pytime.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/strdup.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/structmember.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/symtable.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/sysmodule.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/thread.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/Python/traceback.c">
+			<Option target="python.exe"/>
+		</Unit>
+		<Unit filename="/Users/zeroisone/CLionProjects/cpython-learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

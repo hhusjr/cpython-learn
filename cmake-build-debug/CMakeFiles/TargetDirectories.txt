@@ -1,0 +1,3 @@
+/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zeroisone/CLionProjects/cpython-learn/cmake-build-debug/CMakeFiles/python.exe.dir
